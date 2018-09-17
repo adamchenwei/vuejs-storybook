@@ -5,11 +5,21 @@ import { linkTo } from "@storybook/addon-links";
 import Welcome from "./Welcome.vue";
 import MyButton from "./Button.vue";
 import Layout from "./Layout.vue";
+import Banner from "./Banner";
 
 storiesOf("Welcome", module).add("to Storybook", () => ({
   components: { Welcome },
   template: '<welcome :showApp="action" />',
   methods: { action: linkTo("Button") }
+}));
+
+storiesOf("Banner", module).add("default", () => ({
+  // components: { Banner },
+  // template: '<welcome :showApp="action" />',
+  methods: { action: linkTo("Button") },
+  render() {
+    return Banner;
+  }
 }));
 
 const menuItems = [
