@@ -1,5 +1,7 @@
 # Vuetify-Storybook-boilerplate
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/adamchenwei/vuejs-storybook.svg)](https://greenkeeper.io/)
+
 DEMO
 https://white-rabbit-japan.github.io/vuetify-storyboard-boilerplate/
 
